@@ -20,5 +20,10 @@ jobs:
       - name: 'print my name'
         run: echo yara
 
-      - name: 'Show folder content'
-        run: ls -a 
+      - name: 'Show folder content1'
+        run: ls -a
+
+      - uses: actions/checkout@v3
+
+      - name: 'Show folder content2'
+        run: ls -a
