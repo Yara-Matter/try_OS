@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      - maser
 
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+
+
+    steps:
+      - name: 'Try to push on github'
+        run: pwd 
+
+      - name: 'print my name'
+        run: echo yara 
