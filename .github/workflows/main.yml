@@ -18,4 +18,7 @@ jobs:
         run: pwd 
 
       - name: 'print my name'
-        run: echo yara 
+        run: echo yara
+
+      - name: 'Show folder content'
+        run: ls -a 
